@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 40px;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.buttons {
+    height: 25px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+body {
+    background-color: rgb(61, 56, 56);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.local {
+    font-size: 20px;
+}
+
+#clock {
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
